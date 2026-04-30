@@ -48,30 +48,66 @@ O jogo se passa em uma cidade futurista onde foi criado um grande circuito de ob
 
 ## Estrutura do projeto
 
-```text
-Projeto-Obby-SkyCity/
-├── .gitignore
-├── README.md
-├── docs/
-│   ├── images/
-│   │   ├── Gameplayscreen.jpeg
-│   │   ├── SpawnPoint.jpeg
-│   │   └── menuScreen.jpeg
-│   ├── GDD - Documento.docx
-│   └── SDD - Sound Design Document.docx
-├── images/
-│   ├── Final.jpeg
-│   ├── Pista1.jpeg
-│   ├── Pista2View.jpeg
-│   ├── Pista3.jpeg
-│   └── Pista3Checkpoint.jpeg
-├── music/
-│   ├── Game Lobby (1).mp3
-│   └── rising tides (1).mp3
-├── scripts/
-│   ├── Projeto Faculdade dia 13 do 04.rbxl
-│   ├── checkpoint.lua
-│   └── estamina.lua
-└── sounds/
-    ├── checkpoint.mp3
-    └── policeradio.mp3
+    Projeto-Obby-SkyCity/
+    ├── .gitignore
+    ├── README.md
+    ├── docs/
+    │   ├── images/
+    │   │   ├── Gameplayscreen.jpeg
+    │   │   ├── SpawnPoint.jpeg
+    │   │   └── menuScreen.jpeg
+    │   ├── GDD - Documento.docx
+    │   └── SDD - Sound Design Document.docx
+    ├── images/
+    │   ├── Final.jpeg
+    │   ├── Pista1.jpeg
+    │   ├── Pista2View.jpeg
+    │   ├── Pista3.jpeg
+    │   └── Pista3Checkpoint.jpeg
+    ├── music/
+    │   ├── Game Lobby (1).mp3
+    │   └── rising tides (1).mp3
+    ├── scripts/
+    │   ├── Projeto Faculdade dia 13 do 04.rbxl
+    │   ├── checkpoint.lua
+    │   └── estamina.lua
+    └── sounds/
+        ├── checkpoint.mp3
+        └── policeradio.mp3
+
+## Organização dos assets
+
+- `images/`: capturas de tela das pistas, menus e pontos de spawn;
+- `music/`: trilhas sonoras de ambiente utilizadas no jogo;
+- `scripts/`: arquivo principal do mundo Roblox (`.rbxl`) e scripts em Lua (mecânicas de checkpoint e estamina);
+- `sounds/`: efeitos sonoros de feedback para as ações do jogador;
+- `docs/`: documentação detalhada de design do jogo (GDD) e design sonoro (SDD).
+
+## Equipe e Funções
+
+O projeto foi desenvolvido sob a orientação do docente Rodrigo de Carvalho, com a seguinte divisão técnica:
+
+- **Game Design / Direção Geral:** João Luís
+- **Programação / Lógica de Jogo:** João Luís, Kauê, João Pedro e Pedro
+- **Arte / Pixel Art / Cenários:** João Luís e Kauê
+- **Trilha Sonora / Efeitos:** Kauê
+- **Pesquisa / Avaliação de Impacto:** João Pedro, João Luís, Kauê, Yasmin, Pedro e Alisson
+
+**Integrantes:**
+- Quézia Sales da Silva
+- Yasmin Liberato Schoellkopf
+- Kauê Albuquerque Jardim Pinheiro
+- João Pedro Ferreira Vitalino
+- João Luís Rolim Benedicto
+- Pedro Lopes
+- Alisson Costa
+
+## Observações
+
+- O projeto foi construído e configurado inteiramente na plataforma **Roblox Studio**.
+- Os arquivos de código (`.lua`) foram isolados na pasta `scripts` visando facilitar a leitura, avaliação e versionamento através do GitHub.
+- Todos os recursos de áudio e efeitos sonoros foram retirados da biblioteca oficial do Roblox.
+
+## Créditos
+
+Projeto utilizado em contexto educacional para estudo de Game Design, Level Design, lógica de programação e documentação de projetos.
