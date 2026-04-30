@@ -32,6 +32,12 @@ O jogo se passa em uma cidade futurista onde foi criado um grande circuito de ob
 | **Correr (Sprint)** | `Shift Esquerdo` |
 | **Câmera** | `Botão Direito do Mouse` |
 
+### ⚠️ Regras do Jogo
+* O objetivo principal é completar o percurso para provar sua capacidade.
+* O maior desafio é evitar quedas no *void* (vazio) ao errar saltos ou perder o equilíbrio.
+* Em caso de queda, você renascerá no último checkpoint salvo.
+* A chave para a vitória é a paciência, melhorar a precisão dos movimentos e tentar novamente até conseguir avançar.
+
 ---
 
 ## 👥 Equipe e Funções
@@ -50,18 +56,53 @@ O projeto foi desenvolvido sob a orientação do docente **Rodrigo de Carvalho**
 
 ## 📁 Estrutura do Repositório
 
-```text
-Projeto-Obby-SkyCity/
-├── .gitignore
-├── README.md
-├── docs/
-│   ├── images/ (Screenshots de Gameplay e Menus)
-│   ├── GDD - Documento.docx
-│   └── SDD - Sound Design Document.docx
-├── images/ (Galeria de Pistas e Cenários)
-├── music/ (Trilhas de Ambiente)
-├── scripts/
-│   ├── Projeto Faculdade dia 13 do 04.rbxl (Mapa Principal)
-│   ├── checkpoint.lua
-│   └── estamina.lua
-└── sounds/ (Efeitos Sonoros)
+    Projeto-Obby-SkyCity/
+    ├── .gitignore
+    ├── README.md
+    ├── docs/
+    │   ├── images/
+    │   │   ├── Gameplayscreen.jpeg
+    │   │   ├── SpawnPoint.jpeg
+    │   │   └── menuScreen.jpeg
+    │   ├── GDD - Documento.docx
+    │   └── SDD - Sound Design Document.docx
+    ├── images/
+    │   ├── Final.jpeg
+    │   ├── Pista1.jpeg
+    │   ├── Pista2View.jpeg
+    │   ├── Pista3.jpeg
+    │   └── Pista3Checkpoint.jpeg
+    ├── music/
+    │   ├── Game Lobby (1).mp3
+    │   └── rising tides (1).mp3
+    ├── scripts/
+    │   ├── Projeto Faculdade dia 13 do 04.rbxl
+    │   ├── checkpoint.lua
+    │   └── estamina.lua
+    └── sounds/
+        ├── checkpoint.mp3
+        └── policeradio.mp3
+
+---
+
+## 📦 Organização dos Assets
+
+* `images/`: capturas de tela das pistas, menus e pontos de spawn.
+* `music/`: trilhas sonoras de ambiente utilizadas no jogo.
+* `scripts/`: arquivo principal do mundo Roblox (`.rbxl`) e scripts em Lua (mecânicas de checkpoint e estamina).
+* `sounds/`: efeitos sonoros de feedback para as ações do jogador.
+* `docs/`: documentação detalhada de design do jogo (GDD) e design sonoro (SDD).
+
+---
+
+## 💡 Observações
+
+* O projeto foi construído e configurado inteiramente na plataforma **Roblox Studio**.
+* Os arquivos de código (`.lua`) foram isolados na pasta `scripts` visando facilitar a leitura, avaliação e versionamento através do GitHub.
+* Todos os recursos de áudio e efeitos sonoros foram retirados da biblioteca oficial do Roblox.
+
+---
+
+## 🎓 Créditos
+
+Projeto utilizado em contexto educacional para estudo de Game Design, Level Design, lógica de programação e documentação de projetos.
